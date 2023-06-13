@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+  }
+  body {
+    background: url(https://png.pngtree.com/background/20211215/original/pngtree-blue-notes-on-white-paper-education-math-formula-background-picture-image_1457818.jpg);
+    background-color:white;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+
+  }
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .calculator {
+    width: 400px;
+    height: 400px;
+    background-color: #2a2329;
+    box-shadow: 0px 0px 0px 10px #828282;
+    border: 5px solid black;
+    border-radius: 10px;
+  }
+  #display {
+    padding-right: 10px;
+    width: 320px;
+    height: 50px;
+    text-align: right;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    left: 2px;
+    top: 2px;
+    color: #ffffff;
+  }
+  .topBtn{
+    color: white;
+    background-color: #615b5b;
+    font-size: 15px;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+    transition: all .5s;
+  }
+  .topBtn:hover {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: translateY(-1px) scale(1);
+  }
+  .numBtn {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+    transition: all .5s;
+  }
+  .numBtn:hover {
+    color: #fffdfd;
+    background-color: #615b5b;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: translateY(-1px) scale(1);
+  }
+  .operatorBtn {
+    color: black;
+    background-color: #7fc9df;
+    font-size: 15px;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+    transition: all .5s;
+  }
+  .operatorBtn:hover {
+    color: black;
+    background-color: #ffff70;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: translate(-1px) scale(1);
+  }
+  .advBtn {
+    color: black;
+    background-color: #ffff70;
+    font-size: 15px;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+    transition: all .5s;
+  }
+  .advBtn:hover {
+    color: black;
+    background-color: #7fc9df;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: translate(-1px) scale(1);
+  }
